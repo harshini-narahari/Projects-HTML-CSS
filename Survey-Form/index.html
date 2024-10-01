@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>Student Feedback Survey</header>
+    <p>Your feedback is valuable to us! Please take a moment to fill out this survey.</p>
+    <form action="#">
+        <label>Full Name: </label><br>
+        <input type="text" name="fullname" placeholder="Enter your full name" required><br><br>
+        <label>Email:</label> <br>
+        <input type="email" name="email" placeholder="Enter your registered email" required><br><br>
+        <label for="course">Course Enrolled: </label><br>
+        <select id="course" name="course" required>
+            <option>Select your course</option>
+            <option>Java full stack</option>
+            <option>Python full stack</option>
+            <option>Mern full stack</option>
+            <option>Javascript full stack</option>
+            <option>Artificial Intelligence</option>
+            <option>Machine Learning</option>
+            <option>Data Science</option>
+        </select><br><br>
+        <label for="content">Course Content Quality: </label><br>
+        <select id="content" name="content" required>
+            <option value="">Select a rating</option>
+            <option value="5">Excellent (5)</option>
+            <option value="4">Good (4)</option>
+            <option value="3">Average (3)</option>
+            <option value="2">Poor (2)</option>
+            <option value="1">Very Poor (1)</option>
+        </select><br><br>
+        <label for="mentor">Mentor effectiveness: </label><br>
+        <select id="mentor" name="mentor" required>
+            <option value="">Select a rating</option>
+            <option value="5">Excellent (5)</option>
+            <option value="4">Good (4)</option>
+            <option value="3">Average (3)</option>
+            <option value="2">Poor (2)</option>
+            <option value="1">Very Poor (1)</option>
+        </select><br><br>
+        <label>Would you like to recommend this course to others?</label><br>
+        <label><input type="radio" value="yes" required> Yes</label><br>
+        <label><input type="radio" value="no" required> No</label><br><br>
+        <label>Any Suggestions:</label><br>
+        <textarea name="comments" placeholder="Please provide any Suggestions" rows="5" cols="5"></textarea>
+        <br><br><br>
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>

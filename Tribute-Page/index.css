@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(239, 204, 216);
+}
+header{
+    background-color: rgb(244, 161, 205);
+    color: rgb(74, 3, 57);
+    height: 180px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    text-shadow: 3px 3px 3px rgb(225, 237, 238);
+    font-style: normal;
+}
+img{
+    height: 65vh;
+    border: 2px solid rgb(126, 11, 107);
+    box-shadow: 0px 0px 8px rgb(132, 4, 110);
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 95vw;
+    margin-left: 30px ;
+}
+.container .about {
+    flex: 1; 
+    font-size: 30px;
+    width: 100%;
+    margin-left: 10px;
+    text-align: justify;
+}
+.container .about h2{
+    text-shadow: 2px 2px 2px rgb(158, 119, 132);
+    color: rgb(174, 45, 114);
+    font-style: italic;
+}
+
+.container .about p{
+    font-size: 20px;
+    font-style: oblique;
+}
