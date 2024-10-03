@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(233, 233, 233);
+  max-width: 100%;
+}
+#header {
+  display: flex;
+  min-height: 70px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(236, 209, 209);
+  margin-top: 2px;
+}
+#header img{
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    box-shadow: 0px 3px 4px rgb(192, 40, 151);
+    border-radius: 50%;
+}
+nav {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;
+  padding: 0 50px;
+}
+nav > ul {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+  
+}
+nav li {
+  padding-bottom: 5px;
+  list-style: none;
+}
+nav li a{
+  text-decoration: none;
+  color: black;
+}
+nav li a:hover{
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  font-style: oblique;
+  
+}
+#details h2{
+  font-size: 40px;
+  text-shadow: 0px 0px 3px gray;
+}
+#details input[type="email"] {
+  max-width: 300px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#details button {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: rgb(49, 21, 151);
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+}
+#details button:hover{
+  transform: scale(1.05);
+}
+section{
+  height: 390px;
+  width: 100%;
+  
+}
+.grid {
+  display: flex;                
+  flex-wrap: wrap;             
+  justify-content: space-around; 
+  margin: 20px; 
+}
+.item {
+  flex: 0 0 31%;
+  box-sizing: border-box;      
+  background-color: rgb(247, 244, 244);    
+  border: 1px solid rgb(232, 222, 222);       
+  padding: 20px;                
+  margin-bottom: 20px;          
+  text-align: center;           
+  border-radius: 8px;         
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+.item:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+.item h4{
+  font-size: 20px;
+}
+#video {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+#video > iframe {
+  max-width: 600px;
+  width: 100%;
+  height: 400px;
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+}
+.product:hover{
+  transform: scale(1.05);
+}
+
+.product > .level {
+  background-color: rgb(221, 221, 221);
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.product > h2 {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: rgb(57, 27, 167);
+  font-size: 20px;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+}
+.product > button:hover {
+  background-color: rgb(29, 18, 59);
+  transition: background-color 1s;
+}
+#contact {
+  margin-top: 20px;
+  background-color: rgb(249, 249, 249); 
+  border: 1px solid rgb(221, 221, 221); 
+  border-radius: 8px; 
+  text-align: center;
+  height: 300px;
+  box-shadow: 3px 3px 3px grey;
+}
+footer {
+  margin-top: 30px;
+  background-color: black;
+  padding: 20px;
+}
+footer > span {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.9em;
+  color: white;
+  font-size: 20px;
+}
